@@ -1,6 +1,6 @@
 ## CIS3301-CODE-1: The guessing game
 
-In your first coding assignment, you will create a simple guessing game. In this game, the user will try to guess the outcome of a regular virtual dice (6 faces). To receive full credit if your code accomplishes all the following requirements:
+In your first coding assignment, you will create a simple guessing game. In this game, the user will try to guess the outcome of a regular virtual dice (6 faces). To receive full credit your code must comply with all the following requirements:
 
 - Request the user their guess about the outcome of a regular dice
   - Use the following prompt: "Enter your guess: " (Include white space after the colon)

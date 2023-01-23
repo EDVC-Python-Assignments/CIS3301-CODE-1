@@ -3,7 +3,7 @@
 In your first coding assignment, you will create a simple guessing game. In this game, the user will try to guess the outcome of a regular virtual dice (6 faces). To receive full credit if your code accomplishes all the following requirements:
 
 - Request the user their guess about the outcome of a regular dice
-  - Use the following prompt: "Enter your guess:"
+  - Use the following prompt: "Enter your guess: " (Include white space after colon)
 - Roll the dice and output the result of the dice to the user
   - Use the following output prompts
     - Before rolling the dice: "Rolling the dice..."

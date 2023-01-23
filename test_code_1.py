@@ -20,10 +20,10 @@ def test_right_guess():
     output = get_display_output()
 
     assert output == [
-        "Enter your guess:",
+        "Enter your guess: ",
         "Rolling the dice...",
-        "The dice shows "+guess,
-        "Hooray! Your guess ("+guess+") was right."
+        "The dice shows "+str(guess),
+        "Hooray! Your guess ("+str(guess)+") was right."
         ]
 
 def test_wrong_guess():
@@ -34,9 +34,9 @@ def test_wrong_guess():
     output = get_display_output()
 
     assert output == [
-        "Enter your guess:",
+        "Enter your guess: ",
         "Rolling the dice...",
-        "The dice shows "+guess,
-        "Hooray! Your guess ("+guess+") was right."
+        "The dice shows "+str(guess+1),
+        "Sorry. Your guess ("+str(guess)+") was wrong."
         ]
 
